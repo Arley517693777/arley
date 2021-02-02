@@ -39,6 +39,11 @@ external_links = [
         "name": "2021新年祝福",
         "url": "https://arley.cn/2021/",
         "brief": "新年祝福看云烟花"
+    },
+    {
+        "name": "年会抽奖",
+        "url": "https://arley.cn/lucky/",
+        "brief": "2021某公司年会抽奖"
     }
 ]
 nav = [
