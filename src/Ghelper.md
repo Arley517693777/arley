@@ -116,3 +116,4 @@ Linux
 Ghelper 就行了。使用时，是进入第二个图标，选一个线路。然后点第一个图标右上角连接。
 
 #### [如需合租请联系我！](https://arley.cn/about/)
+#### [想白嫖?](https://t.me/joinchat/_SW79Fthzds3NmI1)
