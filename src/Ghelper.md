@@ -46,43 +46,41 @@ excerpt: 科学上网,知识分享!
 
 官方网站：[http://googlehelper.net/](http://googlehelper.net/ "谷歌上网助手（Ghelper）")
 
-下载之后解压待用，打开你的Chrome浏览器-更多工具-扩展程序页面，或者
+下载之后解压待用，
 
-直接在网址输入: chrome://extensions/
+![](./images/ghelper.png)
+
+打开你的Chrome浏览器-更多工具-扩展程序页面，或者
+
+直接在网址输入: **chrome://extensions/**
+
+![](./images/kz.png)
 
 这个页面点击 "添加已解压的扩展程序",如果没有，在右边有一个 “开发者模式” 开关，打开.
 
-选择本次下载包里的 ghelper_source 目录
+选择本次下载包里的 ghelper_source 目录,确认后就行了.
 
-确认后就行了.
+![](./images/jzyjy.png)
+![](./images/ghelper1.png)
+![](./images/azcg.png)
     
-Tips：建议装上源码包方式后，去 Chrome应用商店找到正式在线版本.安装正式线上版本后，回到扩展页面把刚才导入的已解压的包删除掉或停止.
+[notice]Tips：建议装上源码包后，利用免费节点去[Chrome应用商店](https://chrome.google.com/webstore/ "Chrome应用商店") 找到正式在线版本.安装正式线上版本后，回到扩展页面把刚才导入的已解压的包删除掉或停止.[/notice]
 
 ### 3.注册购买
 
 Ghelper未注册提供免费线路：
 
-google.com google.de google.fr google.com.hk google.com.sg 
-
-google.com.tw google.co.jp google.com.za gstatic.com 
-
-......详情请点击Chrome浏览器右上角Ghelper扩展查看
+![](./images/mfxl.png)
 
 注册购买会员
 
-1个月会员¥ 15.99 
-
-3个月会员¥ 45.99 
-
-6个月会员¥ 85.99 
-
-1年会员¥ 159.99
-
 目前连接仅支持支付宝。
+
+![](./images/hygm.png)
 
 ### 4.其他代理方式
 
-目前支持以下平台使用代理：*需要达到一定的等级开放其他平台代理*
+目前支持以下平台使用代理：*需要达到一定的等级开放其他平台代理*,等级v3
 
 IOS
 
@@ -109,11 +107,20 @@ Linux
 #### 使用方法:
 打开surfboard 后,点底部第三个图标【配制】->点右上角红色按钮-> 出现菜单里选第一个
 
+![](./images/surf2.jpg)
+
 【使用链接下载】,会弹窗一个输入框，,粘上Surfboard的传用配制URL，点确定,等一会会下载成
 
 功，会显示出所有的配制信息,这时再点右下角的确定按钮保存。保存时会让你输入个名称，写
 
 Ghelper 就行了。使用时，是进入第二个图标，选一个线路。然后点第一个图标右上角连接。
 
+![](./images/surfcs.jpg)
+
+
+------
+
+
 #### [如需合租请联系我！](https://arley.cn/about/)
-#### [想白嫖?](https://t.me/joinchat/_SW79Fthzds3NmI1)
+#### [想白嫖?点我](https://t.me/joinchat/_SW79Fthzds3NmI1)
+#### [资源链接：密码:782a](https://arley.lanzous.com/b01bgw06h)
