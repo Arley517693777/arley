@@ -121,6 +121,6 @@ Ghelper 就行了。使用时，是进入第二个图标，选一个线路。然
 ------
 
 
-#### [如需合租请联系我！](https://arley.cn/about/)
+#### [有问题请联系我！](https://arley.cn/about/)
 #### [想白嫖?点我](https://t.me/joinchat/_SW79Fthzds3NmI1)
 #### [资源链接：密码:782a](https://arley.lanzous.com/b01bgw06h)
