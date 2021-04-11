@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Arley's Blog</title><link>/</link><description>Living without an aim is like sailing without a compass。&lt;br&gt;生活没有目标，犹如航海没有罗盘。</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://cdn.jsdelivr.net/gh/Arley517693777/Arley517693777.github.io@master/arley.png</url><title>Arley's Blog</title><link>/</link></image><language>zh-CN</language><lastBuildDate>Sun, 04 Apr 2021 03:15:54 +0806</lastBuildDate><pubDate>Sun, 04 Apr 2021 03:15:54 +0806</pubDate><item><title>如何正确使用——谷歌上网助手（Ghelper）</title><link>/archives/Ghelper/</link><description>&lt;h3&gt;目录&lt;/h3&gt;
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Arley's Blog</title><link>/</link><description>Living without an aim is like sailing without a compass。&lt;br&gt;生活没有目标，犹如航海没有罗盘。</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://cdn.jsdelivr.net/gh/Arley517693777/Arley517693777.github.io@master/arley.png</url><title>Arley's Blog</title><link>/</link></image><language>zh-CN</language><lastBuildDate>Sun, 11 Apr 2021 11:42:33 +0806</lastBuildDate><pubDate>Sun, 11 Apr 2021 11:42:33 +0806</pubDate><item><title>如何正确使用——谷歌上网助手（Ghelper）</title><link>/archives/Ghelper/</link><description>&lt;h3&gt;目录&lt;/h3&gt;
 &lt;h3&gt;1.安装谷歌浏览器&lt;/h3&gt;
 &lt;h3&gt;2.安装谷歌上网助手（Ghelper）&lt;/h3&gt;
 &lt;h3&gt;3.注册购买&lt;/h3&gt;
@@ -52,7 +52,7 @@
 &lt;p&gt;Ghelper 就行了。使用时，是进入第二个图标，选一个线路。然后点第一个图标右上角连接。&lt;/p&gt;
 &lt;p&gt;&lt;figure style="flex: 23.96804260985353" &gt;&lt;img width="1440" height="3004" src="https://cdn.jsdelivr.net/gh/Arley517693777/Arley517693777.github.io@master/archives/assets/8d18e6c4c5549b81866048c3957b81d7.jpg" /&gt;&lt;/figure&gt;&lt;/p&gt;
 &lt;hr&gt;
-&lt;h4&gt;&lt;a href="https://arley.cn/about/"&gt;有问题请联系我！&lt;/a&gt;&lt;/h4&gt;
+&lt;div class="notice"&gt;小道消息：Ghelper软件作者正在开发桌面端APP，全网下架插件下载，已安装不受影响。关注本博客第一时间发布最新测试版，请期待！&lt;/div&gt;&lt;h4&gt;&lt;a href="https://arley.cn/about/"&gt;有问题请联系我！&lt;/a&gt;&lt;/h4&gt;
 &lt;h4&gt;&lt;a href="https://t.me/joinchat/_SW79Fthzds3NmI1"&gt;想白嫖?点我&lt;/a&gt;&lt;/h4&gt;
 &lt;h4&gt;&lt;a href="https://arley.lanzous.com/b01bgw06h"&gt;资源链接：密码:782a&lt;/a&gt;&lt;/h4&gt;
 </description><author>leon517693777@gmail.com (Arley)</author><guid isPermaLink="true">/archives/Ghelper/</guid><pubDate>Mon, 11 Nov 2019 22:22:00 +0806</pubDate></item><item><title>ffmpeg常用教程</title><link>/archives/ffmpeg/</link><description>&lt;h2&gt;一、安装&lt;/h2&gt;
