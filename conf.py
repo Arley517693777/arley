@@ -36,6 +36,11 @@ external_links = [
         "brief": "滑稽"
     },
     {
+        "name": "变色弹珠跳台阶GAME",
+        "url": "arley.cn/color-changing-marbles/",
+        "brief": "来挑战一下吧~"
+    },
+    {
         "name": "2021新年祝福",
         "url": "https://arley.cn/2021/",
         "brief": "新年祝福看云烟花"
