@@ -37,7 +37,7 @@ external_links = [
     },
     {
         "name": "变色弹珠跳台阶GAME",
-        "url": "https://arley.cn/color-changing-marbles/",
+        "url": "https://arley.cn/Color-changing-marbles/",
         "brief": "来挑战一下吧~"
     },
     {
