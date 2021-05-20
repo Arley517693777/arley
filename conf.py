@@ -106,7 +106,9 @@ $( '[data-fancybox]' ).fancybox({
 	}
 });
 </script>
-<script>
+'''
+
+footer_addon = '''<script>
 var _hmt = _hmt || [];
 (function() {
   var hm = document.createElement("script");
@@ -116,8 +118,6 @@ var _hmt = _hmt || [];
 })();
 </script>
 '''
-
-footer_addon = ''
 
 body_addon = r'''
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/Arley517693777/gotop/js/szgotop.js"></script>
