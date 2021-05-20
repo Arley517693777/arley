@@ -108,7 +108,8 @@ $( '[data-fancybox]' ).fancybox({
 </script>
 '''
 
-footer_addon = '''<script>
+footer_addon = r'''
+<script>
 var _hmt = _hmt || [];
 (function() {
   var hm = document.createElement("script");
