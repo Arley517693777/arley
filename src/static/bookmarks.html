@@ -8,7 +8,8 @@
 <meta name="keywords" content="arley,导航,网址,书签导航"/>
 <meta name="description" content="书签导航"/>
 <link rel="shortcut icon" type="image/x-icon" href="https://cdn.jsdelivr.net/gh/Arley517693777/Arley517693777.github.io@master/Arley.png"/>
-<link href="https://cdn.jsdelivr.net/gh/Arley517693777/Arley517693777.github.io@master/assets/zui.min.css" rel="stylesheet" type="text/css"/>
+<!-- szgotop -->
+<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/Arley517693777/gotop/css/szgotop.css">
 <style type="text/css">
 ul {
     padding: 0;
@@ -1493,27 +1494,8 @@ input::-webkit-input-placeholder {
             </footer>
         </div>
     </div>
-    <div id="get-top" title="回到顶部">
-        <i class="icon icon-arrow-up"></i>
-    </div>
-    
-    <!-- jQuery (ZUI中的Javascript组件依赖于jQuery) -->
-    <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/Arley517693777/Arley517693777.github.io@master/assets/jquery-3.4.1.min.js"></script>
     
 <script>
-window.onscroll = function(){
-var sllTop = document.documentElement.scrollTop||document.body.scrollTop;
-if(sllTop>240){
-  $('#get-top').css('display','block')
-}else{
-  $('#get-top').css('display','none')
-}
-}
-$('#get-top').click(function(){ 
-  $('body,html').animate({
-    scrollTop: 0
-  }, 800);//点击回到顶部按钮，数字越小越快
-})
 //判断用户使用的设备
 var deviceVal  = browserRedirect();
 function browserRedirect() {
@@ -1621,6 +1603,9 @@ $("#search-btn").click(function(){
   }
 });
 </script>
+<div class="back-to-top cd-top faa-float animated cd-is-visible" style="top: -900px;"></div>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/Arley517693777/Arley517693777.github.io@master/assets/jquery-3.4.1.min.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/Arley517693777/gotop/js/szgotop.js"></script>
 </div>
 </body>
 </html>
