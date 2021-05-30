@@ -19,22 +19,22 @@
     <script>
         var ExSearchConfig = {
             root: "",
-            api: "https://cdn.jsdelivr.net/gh/Arley517693777/Arley517693777.github.io@master/fe4f3fc49b983394ccebf8c05ec9f516.json"
+            api: "https://cdn.jsdelivr.net/gh/Arley517693777/Arley517693777.github.io@master/1c75cb68ef1d5f2dc84153a1929385f0.json"
         }
     </script>
     
 <title>AC-baidu-重定向优化美化代码分享 - Arley's Blog</title>
 <meta name="author" content="Arley" />
-<meta name="description" content="打造个性化搜索引擎主页!" />
+<meta name="description" content="打造个性化搜索引擎主页!添加手机版" />
 <meta property="og:title" content="AC-baidu-重定向优化美化代码分享 - Arley's Blog" />
-<meta property="og:description" content="打造个性化搜索引擎主页!" />
+<meta property="og:description" content="打造个性化搜索引擎主页!添加手机版" />
 <meta property="og:site_name" content="Arley's Blog" />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="/archives/AC-baidu/" />
 <meta property="og:image" content="" />
 <meta property="article:published_time" content="2021-01-15T09:10:00-00.00" />
 <meta name="twitter:title" content="AC-baidu-重定向优化美化代码分享 - Arley's Blog" />
-<meta name="twitter:description" content="打造个性化搜索引擎主页!" />
+<meta name="twitter:description" content="打造个性化搜索引擎主页!添加手机版" />
 <meta name="twitter:card" content="summary" />
 <meta name="twitter:image" content="" />
 
@@ -170,11 +170,77 @@ $( '[data-fancybox]' ).fancybox({
 <span class="p">}</span>
 </pre></div>
 <h3>代码预览样图</h3>
-<p><figure style="flex: 115.14360313315927" ><img width="1764" height="766" src="https://cdn.jsdelivr.net/gh/Arley517693777/Arley517693777.github.io@master/archives/assets/5313c1c282ef5b7f2bea5d82b5142f06.png" /><figcaption>baidu1</figcaption></figure></p>
-<p><figure style="flex: 172.4271844660194" ><img width="1776" height="515" src="https://cdn.jsdelivr.net/gh/Arley517693777/Arley517693777.github.io@master/archives/assets/dc0dac8e4e0c3ede98f7a91d394f5bf5.png" /><figcaption>baidu2</figcaption></figure></p>
-<p><figure style="flex: 384.72222222222223" ><img width="1385" height="180" src="https://cdn.jsdelivr.net/gh/Arley517693777/Arley517693777.github.io@master/archives/assets/a5f02284b537c63fb3fdfa765545515f.png" /><figcaption>baidu3</figcaption></figure></p>
-<p><figure style="flex: 132.8101644245142" ><img width="1777" height="669" src="https://cdn.jsdelivr.net/gh/Arley517693777/Arley517693777.github.io@master/archives/assets/f944d7c54aee0fd80a9e7c76d0fa9c48.png" /><figcaption>google1.png</figcaption></figure></p>
-<p><figure style="flex: 140.93023255813952" ><img width="1818" height="645" src="https://cdn.jsdelivr.net/gh/Arley517693777/Arley517693777.github.io@master/archives/assets/f1d9e8d8b89e77fe9464e7f11204f14a.png" /><figcaption>google2.png</figcaption></figure></p>
+<p><figure style="flex: 115.14360313315927" ><img width="1764" height="766" src="https://cdn.jsdelivr.net/gh/Arley517693777/Arley517693777.github.io@master/archives/assets/5313c1c282ef5b7f2bea5d82b5142f06.png" /></figure></p>
+<p><figure style="flex: 172.4271844660194" ><img width="1776" height="515" src="https://cdn.jsdelivr.net/gh/Arley517693777/Arley517693777.github.io@master/archives/assets/dc0dac8e4e0c3ede98f7a91d394f5bf5.png" /></figure></p>
+<p><figure style="flex: 384.72222222222223" ><img width="1385" height="180" src="https://cdn.jsdelivr.net/gh/Arley517693777/Arley517693777.github.io@master/archives/assets/a5f02284b537c63fb3fdfa765545515f.png" /></figure></p>
+<p><figure style="flex: 132.8101644245142" ><img width="1777" height="669" src="https://cdn.jsdelivr.net/gh/Arley517693777/Arley517693777.github.io@master/archives/assets/f944d7c54aee0fd80a9e7c76d0fa9c48.png" /></figure></p>
+<p><figure style="flex: 140.93023255813952" ><img width="1818" height="645" src="https://cdn.jsdelivr.net/gh/Arley517693777/Arley517693777.github.io@master/archives/assets/f1d9e8d8b89e77fe9464e7f11204f14a.png" /></figure></p>
+<h3>添加手机版，kiwi浏览器支持</h3>
+<div class="highlight"><pre><span></span><span class="cm">/**计数器的颜色样式*/</span>
+<span class="n">div</span> <span class="p">.</span><span class="n">AC</span><span class="o">-</span><span class="n">CounterT</span><span class="p">{</span>
+    <span class="nl">background</span><span class="p">:</span> <span class="err">#</span><span class="n">FD9999</span><span class="p">;</span>
+<span class="p">}</span>
+<span class="cm">/**右侧栏的样式-其实不开启更好看一些*/</span>
+<span class="cp">#content_right{</span>
+    <span class="nl">padding</span><span class="p">:</span> <span class="mi">20</span><span class="n">px</span> <span class="mi">15</span><span class="n">px</span> <span class="mi">15</span><span class="n">px</span><span class="p">;</span>
+    <span class="n">border</span><span class="o">-</span><span class="nl">radius</span><span class="p">:</span> <span class="mi">5</span><span class="n">px</span><span class="p">;</span>
+    <span class="n">background</span><span class="o">-</span><span class="nl">color</span><span class="p">:</span> <span class="err">#</span><span class="n">fff</span><span class="p">;</span>
+    <span class="n">box</span><span class="o">-</span><span class="nl">sizing</span><span class="p">:</span> <span class="n">border</span><span class="o">-</span><span class="n">box</span><span class="p">;</span>
+    <span class="n">box</span><span class="o">-</span><span class="nl">shadow</span><span class="p">:</span> <span class="mi">0</span> <span class="mi">0</span> <span class="mi">20</span><span class="n">px</span> <span class="mi">2</span><span class="n">px</span> <span class="n">rgba</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mf">.1</span><span class="p">);</span>
+    <span class="o">-</span><span class="n">webkit</span><span class="o">-</span><span class="n">box</span><span class="o">-</span><span class="nl">shadow</span><span class="p">:</span> <span class="mi">0</span> <span class="mi">0</span> <span class="mi">20</span><span class="n">px</span> <span class="mi">2</span><span class="n">px</span> <span class="n">rgba</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mf">.1</span><span class="p">);</span>
+    <span class="o">-</span><span class="n">moz</span><span class="o">-</span><span class="n">box</span><span class="o">-</span><span class="nl">shadow</span><span class="p">:</span> <span class="mi">0</span> <span class="mi">0</span> <span class="mi">20</span><span class="n">px</span> <span class="mi">2</span><span class="n">px</span> <span class="n">rgba</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mf">.1</span><span class="p">);</span>
+<span class="p">}</span>
+<span class="cm">/****可以加一些自己的背景图片,替换引号内的内容为可外链的图片即可****/</span>
+<span class="n">body</span><span class="p">{</span>
+    <span class="n">background</span><span class="o">-</span><span class="nl">repeat</span><span class="p">:</span> <span class="n">no</span><span class="o">-</span><span class="n">repeat</span><span class="p">;</span>
+    <span class="n">background</span><span class="o">-</span><span class="nl">size</span><span class="p">:</span> <span class="n">cover</span><span class="p">;</span>
+    <span class="nl">left</span><span class="p">:</span><span class="mi">0</span><span class="p">;</span>
+    <span class="nl">top</span><span class="p">:</span><span class="mi">0</span><span class="p">;</span>
+    <span class="nl">right</span><span class="p">:</span><span class="mi">0</span><span class="p">;</span>
+    <span class="nl">botton</span><span class="p">:</span><span class="mi">0</span><span class="p">;</span>
+    <span class="n">background</span><span class="o">-</span><span class="nl">position</span><span class="p">:</span><span class="n">center</span><span class="p">;</span>
+    <span class="n">background</span><span class="o">-</span><span class="nl">attachment</span><span class="p">:</span><span class="n">fixed</span><span class="p">;</span>
+    <span class="n">background</span><span class="o">-</span><span class="nl">image</span><span class="p">:</span> <span class="n">url</span><span class="p">(</span><span class="err">&#39;</span><span class="nl">https</span><span class="p">:</span><span class="c1">//z3.ax1x.com/2021/05/30/2EX7QA.jpg&#39;);</span>
+<span class="p">}</span>
+<span class="cm">/*****窗口背景的透明虚化效果*****/</span>
+<span class="n">body</span><span class="o">&gt;</span><span class="err">#</span><span class="n">wrapper</span><span class="p">,</span><span class="n">body</span><span class="o">&gt;</span><span class="p">.</span><span class="n">wrap</span><span class="p">,</span><span class="n">body</span><span class="o">&gt;</span><span class="err">#</span><span class="n">main</span><span class="p">,</span><span class="n">body</span> <span class="err">#</span><span class="n">appbar</span><span class="p">,</span><span class="n">body</span> <span class="err">#</span><span class="n">hdtbSum</span><span class="p">{</span>
+    <span class="nl">background</span><span class="p">:</span> <span class="n">rgba</span><span class="p">(</span><span class="mi">225</span><span class="p">,</span><span class="mi">225</span><span class="p">,</span><span class="mi">225</span><span class="p">,</span><span class="mi">0</span><span class="p">);</span>
+<span class="p">}</span>
+<span class="n">body</span><span class="o">&gt;</span><span class="err">#</span><span class="n">wrapper</span><span class="p">,</span><span class="n">body</span><span class="o">&gt;</span><span class="p">.</span><span class="n">wrap</span><span class="p">,</span><span class="n">body</span><span class="o">&gt;</span><span class="p">.</span><span class="n">wrapper_new</span> <span class="err">#</span><span class="n">foot</span> <span class="err">#</span><span class="n">help</span> <span class="p">{</span>
+    <span class="nl">background</span><span class="p">:</span> <span class="n">rgba</span><span class="p">(</span><span class="mi">225</span><span class="p">,</span><span class="mi">225</span><span class="p">,</span><span class="mi">225</span><span class="p">,</span><span class="mi">0</span><span class="p">);</span>
+<span class="p">}</span>
+<span class="n">body</span><span class="o">&gt;</span><span class="err">#</span><span class="n">wrapper</span><span class="p">,</span><span class="n">body</span><span class="o">&gt;</span><span class="p">.</span><span class="n">wrap</span><span class="p">,</span><span class="n">body</span><span class="o">&gt;</span><span class="p">.</span><span class="n">wrapper_new</span> <span class="err">#</span><span class="n">foot</span> <span class="p">{</span>
+    <span class="nl">background</span><span class="p">:</span> <span class="n">rgba</span><span class="p">(</span><span class="mi">225</span><span class="p">,</span><span class="mi">225</span><span class="p">,</span><span class="mi">225</span><span class="p">,</span><span class="mi">0</span><span class="p">);</span>
+<span class="p">}</span>
+<span class="n">body</span><span class="o">&gt;</span><span class="err">#</span><span class="n">wrapper</span><span class="p">,</span><span class="n">body</span><span class="o">&gt;</span><span class="p">.</span><span class="n">wrap</span><span class="p">,</span><span class="n">body</span><span class="o">&gt;</span><span class="p">.</span><span class="n">wrapper_new</span> <span class="p">.</span><span class="n">sam_newgrid</span><span class="o">~</span><span class="err">#</span><span class="n">page</span> <span class="p">{</span>
+    <span class="nl">background</span><span class="p">:</span> <span class="n">rgba</span><span class="p">(</span><span class="mi">225</span><span class="p">,</span><span class="mi">225</span><span class="p">,</span><span class="mi">225</span><span class="p">,</span><span class="mi">0</span><span class="p">);</span>
+<span class="p">}</span>
+<span class="n">body</span><span class="o">&gt;</span><span class="err">#</span><span class="n">wrapper</span><span class="p">,</span><span class="n">body</span><span class="o">&gt;</span><span class="p">.</span><span class="n">wrap</span><span class="p">,</span><span class="n">body</span><span class="o">&gt;</span><span class="err">#</span><span class="n">main</span><span class="p">,</span><span class="n">body</span> <span class="err">#</span><span class="n">appbar</span><span class="p">,</span><span class="n">body</span> <span class="p">.</span><span class="n">f6F9Be</span> <span class="p">{</span>
+    <span class="nl">background</span><span class="p">:</span> <span class="n">rgba</span><span class="p">(</span><span class="mi">225</span><span class="p">,</span><span class="mi">225</span><span class="p">,</span><span class="mi">225</span><span class="p">,</span><span class="mi">0</span><span class="p">);</span>
+
+<span class="p">}</span>
+<span class="n">body</span> <span class="err">#</span><span class="n">head</span> <span class="p">{</span>
+    <span class="n">background</span><span class="o">-</span><span class="nl">color</span><span class="p">:</span> <span class="n">rgba</span><span class="p">(</span><span class="mi">225</span><span class="p">,</span><span class="mi">225</span><span class="p">,</span><span class="mi">225</span><span class="p">,</span><span class="mi">0</span><span class="p">);</span>
+<span class="p">}</span>
+<span class="n">form</span><span class="p">.</span><span class="n">fm</span> <span class="p">.</span><span class="n">s_ipt_wr</span><span class="p">.</span><span class="n">bg</span> <span class="p">{</span>
+    <span class="nl">background</span><span class="p">:</span> <span class="err">#</span><span class="n">fff0</span>
+<span class="p">}</span>
+<span class="n">body</span><span class="o">&gt;</span><span class="p">.</span><span class="n">minidiv</span> <span class="p">.</span><span class="n">sfbg</span> <span class="p">{</span>
+    <span class="nl">background</span><span class="p">:</span> <span class="err">#</span><span class="n">b3b3b354</span><span class="p">;</span>
+<span class="p">}</span>
+<span class="n">body</span><span class="o">&gt;</span><span class="p">.</span><span class="n">minidiv</span> <span class="p">.</span><span class="n">RNNXgb</span> <span class="p">{</span>
+    <span class="nl">background</span><span class="p">:</span> <span class="err">#</span><span class="n">b3b3b354</span><span class="p">;</span>
+<span class="p">}</span>
+<span class="cm">/**隐藏首页的大图标-修复可能导致外援样式异常**/</span>
+<span class="n">body</span><span class="p">[</span><span class="n">baidu</span><span class="p">]</span> <span class="err">#</span><span class="n">s_lg_img_new</span><span class="p">{</span>
+    <span class="nl">display</span><span class="p">:</span><span class="n">none</span> <span class="o">!</span><span class="n">important</span><span class="p">;</span>
+<span class="p">}</span>
+<span class="cp">#wrapper #content_left .result, #wrapper #content_left .c-container{</span>
+    <span class="n">border</span><span class="o">-</span><span class="nl">radius</span><span class="p">:</span> <span class="mi">5</span><span class="n">px</span><span class="p">;</span>
+<span class="p">}</span>
+</pre></div>
+<h3>代码预览样图</h3>
+<p><figure style="flex: 24.03204272363151" ><img width="1440" height="2996" src="https://cdn.jsdelivr.net/gh/Arley517693777/Arley517693777.github.io@master/archives/assets/89e1286889aa7b3203a5ed70d99e3a6b.jpg" /></figure></p>
 
             </div>
         </article>
