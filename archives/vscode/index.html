@@ -23,18 +23,18 @@
         }
     </script>
     
-<title>ffmpeg常用教程 - Arley's Blog</title>
+<title>vscode美化 - Arley's Blog</title>
 <meta name="author" content="Arley" />
-<meta name="description" content="一、安装" />
-<meta property="og:title" content="ffmpeg常用教程 - Arley's Blog" />
-<meta property="og:description" content="一、安装" />
+<meta name="description" content="边看小姐姐边写代码ヾ(≧O≦)〃嗷~" />
+<meta property="og:title" content="vscode美化 - Arley's Blog" />
+<meta property="og:description" content="边看小姐姐边写代码ヾ(≧O≦)〃嗷~" />
 <meta property="og:site_name" content="Arley's Blog" />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="/archives/ffmpeg/" />
+<meta property="og:url" content="/archives/vscode/" />
 <meta property="og:image" content="" />
-<meta property="article:published_time" content="2020-02-12T10:10:00-00.00" />
-<meta name="twitter:title" content="ffmpeg常用教程 - Arley's Blog" />
-<meta name="twitter:description" content="一、安装" />
+<meta property="article:published_time" content="2021-05-31T10:10:00-00.00" />
+<meta name="twitter:title" content="vscode美化 - Arley's Blog" />
+<meta name="twitter:description" content="边看小姐姐边写代码ヾ(≧O≦)〃嗷~" />
 <meta name="twitter:card" content="summary" />
 <meta name="twitter:image" content="" />
 
@@ -92,115 +92,96 @@ $( '[data-fancybox]' ).fancybox({
 <main>    
     <section class="ga-section ga-content">
         <article class="yue">
-            <h1 class="ga-post_title">ffmpeg常用教程</h1>
+            <h1 class="ga-post_title">vscode美化</h1>
             <span class="ga-post_meta ga-mono">
                 <span>Arley</span>
                 <time>
-                    2020-02-12
+                    2021-05-31
                 </time>
                 
-                in <a no-style class="category" href="/category/技术教程/">
-                    技术教程
+                in <a no-style class="category" href="/category/美化/">
+                    美化
                 </a>
                 
                 
                 <span class="leancloud_visitors" 
-                    id="/archives/ffmpeg/" 
-                    data-flag-title="ffmpeg常用教程"> · <i class="leancloud-visitors-count"></i> Views</span>
+                    id="/archives/vscode/" 
+                    data-flag-title="vscode美化"> · <i class="leancloud-visitors-count"></i> Views</span>
                 
             </span>
             <div class="ga-content_body">
-                <h2>一、安装</h2>
-<p><strong>ffmpeg官网：<a href="https://www.ffmpeg.org/download.html">https://www.ffmpeg.org/download.html</a></strong></p>
-<p>该网站中的FFMPEG分为3个版本：Static，Shared，Dev。</p>
-<p>前两个版本可以直接在命令行中使用，他们的区别在于</p>
-<p>Static里面只有3个应用程序：</p>
-<ul>
-<li>ffmpeg.exe</li>
-<li>ffplay.exe</li>
-<li>ffprobe.exe</li>
-</ul>
-<p>Shared里面除了3个应用程序：ffmpeg.exe，ffplay.exe，ffprobe.exe之外，还有一些Dll，比如说avcodec-54.dll之类的。</p>
-<p>Shared里面的exe体积很小，他们在运行的时候，到相应的Dll中调用功能。</p>
-<p>Dev版本是用于开发的，里面包含了库文件xxx.lib以及头文件xxx.h，这个版本不包含exe文件。</p>
-<p>这里我们使用static版本，下载zip压缩文件，解压到指定目录，利用Windows自带命令提示符CMD，CD到解压的路径，</p>
-<p>例如：D:\ffmpeg201200216\bin，这样bin下面的ffmpeg.exe就可以在命令行中使用了，可以用ffmpeg -version测试一下：</p>
-<p>放一个mp4视频，然后把声音提取到output.acc，用命令测试一下：</p>
-<p><code>ffmpeg -i movie.mp4 -acodec copy -vn output.aac</code></p>
-<h2>二、常用命令</h2>
-<p>主要参数：</p>
-<ul>
-<li>-i 设定输入流 </li>
-<li>-f 设定输出格式 </li>
-<li>-ss 开始时间 </li>
-</ul>
-<p>视频参数：</p>
-<ul>
-<li>-b 设定视频流量(码率)，默认为200Kbit/s </li>
-<li>-r 设定帧速率，默认为25 </li>
-<li>-s 设定画面的宽与高 </li>
-<li>-aspect 设定画面的比例 </li>
-<li>-vn 不处理视频 </li>
-<li>-vcodec 设定视频编解码器，未设定时则使用与输入流相同的编解码器</li>
-</ul>
-<p>音频参数：</p>
-<ul>
-<li>-ar 设定采样率 </li>
-<li>-ac 设定声音的Channel数 </li>
-<li>-acodec 设定声音编解码器，未设定时则使用与输入流相同的编解码器 </li>
-<li>-an 不处理音频</li>
-</ul>
-<h3>1. 视频格式转换</h3>
-<p>比如一个avi文件，想转为mp4。</p>
-<p><code>ffmpeg -i input.avi output.mp4</code></p>
-<h3>2. 提取音频</h3>
-<p>比如一个相声.MP4文件,只想听声音，提取音频为.ACC格式：</p>
-<p><code>ffmpeg -i 相声.mp4 -acodec aac -vn output.aac</code></p>
-<p>(-vn 不处理视频 )</p>
-<h3>3. 提取视频</h3>
-<p>比如一个相声.MP4文件,只想看视频影像不听声音：</p>
-<p><code>ffmpeg -i 相声.mp4 -vcodec copy -an output.mp4</code></p>
-<p>（-an 不处理音频）</p>
-<h3>4. 视频剪切</h3>
-<p>截取视频从时间为00:00:15开始，截取5秒钟的视频：</p>
-<p><code>ffmpeg -ss 00:00:15 -t 00:00:05 -i input.mp4 -vcodec copy -acodec copy output.mp4</code></p>
-<p>-ss表示开始切割的时间，-t表示要切多少。</p>
-<blockquote><p>ffmpeg 在切割视频的时候无法做到时间绝对准确，因为视频编码中关键帧（I帧）和跟随它的B帧、P帧是无法分割开的，否则就需要进行重新帧内编码，会让视频体积增大。所以，如果切割的位置刚好在两个关键帧中间，那么 ffmpeg 会向前/向后切割，所以最后切割出的 chunk 长度总是会大于等于应有的长度。</p>
-</blockquote>
-<h3>5.码率控制</h3>
-<p><strong>码率： bitrate = file size / duration</strong></p>
-<p>比如一个文件20.8M，时长1分钟，那么，码率就是：</p>
-<p><em>biterate = 20.8M bit/60s = 20.8</em>1024<em>1024</em>8 bit/60s= 2831Kbps*</p>
-<p>ffmpg控制码率有3种选择:</p>
-<ul>
-<li>-minrate</li>
-<li>-b:v</li>
-<li>-maxrate</li>
-</ul>
-<p>-b:v 主要是控制平均码率。 比如一个视频源的码率太高了，有10Mbps，文件太大，想把文件弄小一点，但是又不破坏分辨率:</p>
-<p><code>ffmpeg -i input.mp4 -b:v 2000k -bufsize 2000k output.mp4</code></p>
-<p>-minrate -maxrate 设置码率波动阈值</p>
-<p><code>ffmpeg -i input.mp4 -b:v 2000k -bufsize 2000k -maxrate 2500k output.mp4</code></p>
-<h3>6. 视频编码格式转换</h3>
-<p>相声.mp4的编码是MPEG4，转换H264编码：</p>
-<p><code>ffmpeg -i input.mp4 -vcodec h264 output.mp4</code></p>
-<p>相反</p>
-<p><code>ffmpeg -i input.mp4 -vcodec mpeg4 output.mp4</code></p>
-<h3>7.为视频添加logo</h3>
-<p>水印logo.png贴到一个视频上，那可以用如下命令：</p>
-<p><code>ffmpeg -i input.mp4 -i logo.png -filter_complex overlay output.mp4</code></p>
-<h3>8. 旋转视频</h3>
-<p>在手机上录的视频，在电脑放，是颠倒的，需要旋转90度。</p>
-<p><code>ffmpeg -i 相声.mp4 -vf transpose=1 rotate8.mp4</code></p>
-<h2>三、其他命令</h2>
-<p>官方文档：<a href="https://www.ffmpeg.org/ffmpeg.html" title="ffmpeg官方文档">https://www.ffmpeg.org/ffmpeg.html</a></p>
+                <h3>1.换背景</h3>
+<p>在扩展程序中搜索background-cover插件进行安装</p>
+<p>ctrl + shift +p 输入命令</p>
+<div class="highlight"><pre><span></span><span class="n">backgroundCover</span> <span class="o">-</span> <span class="n">start</span>
+</pre></div>
+<p>另一种方式直接修vscode的安装文件 <em>.css</em></p>
+<p>由于修改了vscode文件，导致不受支持，可以用插件 Fix VSCode Checksums 隐藏字样</p>
+<p>安装好插件后 ctrl + shift +p 输入命令</p>
+<div class="highlight"><pre><span></span><span class="n">Fix</span> <span class="nl">Checksums</span><span class="p">:</span> <span class="n">Apply</span>
+</pre></div>
+<p>添加右下角logo，安装插件 background</p>
+<p>然后进入设置搜索 background 进入json文件配置</p>
+<p>如下我的配置：</p>
+<div class="highlight"><pre><span></span><span class="c1">//background 的相关配置</span>
+    <span class="s">&quot;update.enableWindowsBackgroundUpdates&quot;</span><span class="o">:</span> <span class="nb">true</span><span class="p">,</span>
+    <span class="s">&quot;background.customImages&quot;</span><span class="o">:</span> <span class="p">[</span>
+      <span class="s">&quot;file:///E:/Pictures/bg.png&quot;</span><span class="p">,</span> <span class="c1">//图片地址</span>
+    <span class="p">],</span>
+    <span class="s">&quot;background.style&quot;</span><span class="o">:</span> <span class="p">{</span>
+        <span class="s">&quot;content&quot;</span><span class="o">:</span><span class="s">&quot;&#39;&#39;&quot;</span><span class="p">,</span>
+        <span class="s">&quot;pointer-events&quot;</span><span class="o">:</span><span class="s">&quot;none&quot;</span><span class="p">,</span>
+        <span class="s">&quot;position&quot;</span><span class="o">:</span><span class="s">&quot;absolute&quot;</span><span class="p">,</span><span class="c1">//开启定位</span>
+        <span class="s">&quot;width&quot;</span><span class="o">:</span><span class="s">&quot;100%&quot;</span><span class="p">,</span><span class="c1">//随窗口宽度</span>
+        <span class="s">&quot;height&quot;</span><span class="o">:</span><span class="s">&quot;100%&quot;</span><span class="p">,</span><span class="c1">//随窗高度</span>
+        <span class="s">&quot;z-index&quot;</span><span class="o">:</span><span class="s">&quot;99999&quot;</span><span class="p">,</span><span class="c1">//最上面</span>
+        <span class="s">&quot;background.repeat&quot;</span><span class="o">:</span><span class="s">&quot;no-repeat&quot;</span><span class="p">,</span><span class="c1">//不进行重复</span>
+        <span class="s">&quot;background-size&quot;</span><span class="o">:</span> <span class="s">&quot;20%,20%&quot;</span><span class="p">,</span> <span class="c1">//背景大小</span>
+        <span class="s">&quot;opacity&quot;</span><span class="o">:</span><span class="mf">0.5</span> <span class="c1">//透明度</span>
+    <span class="p">},</span>
+    <span class="s">&quot;background.useFront&quot;</span><span class="o">:</span> <span class="nb">true</span><span class="p">,</span>
+    <span class="s">&quot;background.useDefault&quot;</span><span class="o">:</span> <span class="nb">false</span><span class="p">,</span>
+    <span class="s">&quot;backgroundCover.opacity&quot;</span><span class="o">:</span> <span class="mi">1</span><span class="p">,</span>
+    <span class="s">&quot;backgroundCover.imagePath&quot;</span><span class="o">:</span> <span class="s">&quot;e:</span><span class="se">\\</span><span class="s">Pictures</span><span class="se">\v</span><span class="s">scodebg.jpg&quot;</span><span class="p">,</span>
+    <span class="s">&quot;workbench.colorCustomizations&quot;</span><span class="o">:</span> <span class="p">{</span>
+    <span class="p">},</span>
+</pre></div>
+<h3>2.换底部状态栏</h3>
+<p>文件-&gt;首选项-&gt;设置</p>
+<div class="highlight"><pre><span></span><span class="s">&quot;workbench.colorCustomizations&quot;</span><span class="o">:</span> <span class="p">{</span>
+    <span class="s">&quot;statusBar.background&quot;</span> <span class="o">:</span> <span class="s">&quot;#1A1A1A&quot;</span><span class="p">,</span>
+    <span class="s">&quot;statusBar.noFolderBackground&quot;</span> <span class="o">:</span> <span class="s">&quot;#0A0A0D&quot;</span><span class="p">,</span>
+    <span class="s">&quot;statusBar.debuggingBackground&quot;</span><span class="o">:</span> <span class="s">&quot;#511f1f&quot;</span>
+<span class="p">}</span>
+</pre></div>
+<h3>3.常用插件(转自知乎<a href="https://zhuanlan.zhihu.com/p/112016680">https://zhuanlan.zhihu.com/p/112016680</a>)</h3>
+<p>1、Bracket Pair Colorizer：给匹配的括号着色</p>
+<p>2、Code Spell Checker 拼写检查器</p>
+<p>3、Indent-Rainbow 缩进带有颜色</p>
+<p>4、Path Intellisense 自动完成文件名</p>
+<p>5、Power Mode 光标动画</p>
+<p>6、Trailing Spaces 突出显示尾随空格</p>
+<p>7、filesize 在状态栏中显示当前文件大小</p>
+<p>8、TabNine 代码补全</p>
+<p>9、Error Lens 将编辑器诊断出的警告、错误、语法问题（提示的波浪线）等，以用颜色填充行背景的方式突出提示，并将诊断信息显示在尾部</p>
+<p>10、Markdown Preview Enhanced  &ensp;Markdown预览插件</p>
+<h3>预览样图</h3>
+<p><figure style="flex: 88.88888888888889" ><img width="1920" height="1080" src="https://cdn.jsdelivr.net/gh/Arley517693777/Arley517693777.github.io@master/archives/assets/0fceaa48f5d9fed35315a11d51621f74.png" /></figure></p>
 
             </div>
         </article>
         <div id="ga-tags">
     
     <span class="ga-tag">
-        <a class="ga-highlight" href="/tag/ffmpeg/">#ffmpeg</a>
+        <a class="ga-highlight" href="/tag/vscode/">#vscode</a>
+    </span>
+    
+    <span class="ga-tag">
+        <a class="ga-highlight" href="/tag/美化/">#美化</a>
+    </span>
+    
+    <span class="ga-tag">
+        <a class="ga-highlight" href="/tag/教程/">#教程</a>
     </span>
     
 </div>
@@ -209,14 +190,14 @@ $( '[data-fancybox]' ).fancybox({
 <section id="ga-content_pager">
 
     <div class="next">
-        <a class="ga-highlight" href="/archives/AC-baidu/">AC-baidu-重定向优化美化代码分享</a>
-        <p class="yue">打造个性化搜索引擎主页!添加手机版</p>
+        <h3>没有了</h3>
+        <p class="yue">这是最新的文章</p>
     </div>
 
 
     <div class="prev">
-        <a class="ga-highlight" href="/archives/Ghelper/">如何正确使用——谷歌上网助手（Ghelper）</a>
-        <p class="yue">科学上网,知识分享!</p>
+        <a class="ga-highlight" href="/archives/AC-baidu/">AC-baidu-重定向优化美化代码分享</a>
+        <p class="yue">打造个性化搜索引擎主页!添加手机版</p>
     </div>
 
 </section>
