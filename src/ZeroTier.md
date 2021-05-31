@@ -49,4 +49,4 @@ excerpt: 免费内网穿透远程控制你的设备.
 
 #### [完整视频版请点ZeroTier内网穿透Youtube教程](https://www.youtube.com/watch?v=4dqDOkI8VE4&t=228s "ZeroTier内网穿透Youtube教程")
 
-#### [资源链接 密码:4ewr](https://arley.lanzoui.com/b01ceesrc "ZeroTier内网穿透Youtube教程")
+#### [资源链接 密码:4ewr](https://arley.lanzoui.com/b01ceesrc "ZeroTier资源软件")
