@@ -41,7 +41,7 @@ excerpt: 免费内网穿透远程控制你的设备.
 
 ![](./images/zerotier5.jpg)
 ![](./images/zerotier6.jpg)
-![](./images/zerotier6.jpg)
+![](./images/zerotier7.jpg)
 
   添加完成后启用，然后去网页勾选授权添加的设备
 
