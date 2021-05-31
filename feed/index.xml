@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Arley's Blog</title><link>/</link><description>Living without an aim is like sailing without a compass。&lt;br&gt;生活没有目标，犹如航海没有罗盘。</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://cdn.jsdelivr.net/gh/Arley517693777/Arley517693777.github.io@master/arley.png</url><title>Arley's Blog</title><link>/</link></image><language>zh-CN</language><lastBuildDate>Mon, 31 May 2021 05:19:30 +0806</lastBuildDate><pubDate>Mon, 31 May 2021 05:19:30 +0806</pubDate><item><title>如何正确使用——谷歌上网助手（Ghelper）</title><link>/archives/Ghelper/</link><description>&lt;h3&gt;目录&lt;/h3&gt;
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Arley's Blog</title><link>/</link><description>Living without an aim is like sailing without a compass。&lt;br&gt;生活没有目标，犹如航海没有罗盘。</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://cdn.jsdelivr.net/gh/Arley517693777/Arley517693777.github.io@master/arley.png</url><title>Arley's Blog</title><link>/</link></image><language>zh-CN</language><lastBuildDate>Mon, 31 May 2021 05:19:45 +0806</lastBuildDate><pubDate>Mon, 31 May 2021 05:19:45 +0806</pubDate><item><title>如何正确使用——谷歌上网助手（Ghelper）</title><link>/archives/Ghelper/</link><description>&lt;h3&gt;目录&lt;/h3&gt;
 &lt;h3&gt;1.安装谷歌浏览器&lt;/h3&gt;
 &lt;h3&gt;2.安装谷歌上网助手（Ghelper）&lt;/h3&gt;
 &lt;h3&gt;3.注册购买&lt;/h3&gt;
@@ -327,4 +327,25 @@
 &lt;p&gt;10、Markdown Preview Enhanced  &amp;ensp;Markdown预览插件&lt;/p&gt;
 &lt;h3&gt;预览样图&lt;/h3&gt;
 &lt;p&gt;&lt;figure style="flex: 88.88888888888889" &gt;&lt;img width="1920" height="1080" src="https://cdn.jsdelivr.net/gh/Arley517693777/Arley517693777.github.io@master/archives/assets/0fceaa48f5d9fed35315a11d51621f74.png" /&gt;&lt;/figure&gt;&lt;/p&gt;
-</description><author>leon517693777@gmail.com (Arley)</author><guid isPermaLink="true">/archives/vscode/</guid><pubDate>Mon, 31 May 2021 10:10:00 +0806</pubDate></item></channel></rss>
+</description><author>leon517693777@gmail.com (Arley)</author><guid isPermaLink="true">/archives/vscode/</guid><pubDate>Mon, 31 May 2021 10:10:00 +0806</pubDate></item><item><title>ZeroTier内网穿透</title><link>/archives/ZeroTier/</link><description>&lt;p&gt;&lt;figure style="flex: 86.76680972818312" &gt;&lt;img width="1213" height="699" src="https://cdn.jsdelivr.net/gh/Arley517693777/Arley517693777.github.io@master/archives/assets/5b9cf81149377fa26218c7ef4691130c.png" /&gt;&lt;/figure&gt;
+&lt;figure style="flex: 91.06280193236715" &gt;&lt;img width="1131" height="621" src="https://cdn.jsdelivr.net/gh/Arley517693777/Arley517693777.github.io@master/archives/assets/232a169a202b58d1652ca2c4e3010d48.png" /&gt;&lt;/figure&gt;&lt;/p&gt;
+&lt;h3&gt;如何使用ZeroTier（&lt;a href="https://zerotier.com/"&gt;https://zerotier.com/&lt;/a&gt;）&lt;/h3&gt;
+&lt;p&gt;支持 Github、Google、Microsoft 登录&lt;/p&gt;
+&lt;p&gt;注册登录后，如下图，创建一个Network，
+&lt;figure style="flex: 220.11627906976744" &gt;&lt;img width="1893" height="430" src="https://cdn.jsdelivr.net/gh/Arley517693777/Arley517693777.github.io@master/archives/assets/56a8889a6ba3a363e3a658d6c5a3e036.png" /&gt;&lt;/figure&gt;&lt;/p&gt;
+&lt;p&gt;&lt;figure style="flex: 102.22222222222223" &gt;&lt;img width="1288" height="630" src="https://cdn.jsdelivr.net/gh/Arley517693777/Arley517693777.github.io@master/archives/assets/6c7298ef08f17e39c2e1c6d091672c92.png" /&gt;&lt;/figure&gt;&lt;/p&gt;
+&lt;p&gt;名称简介随意，备注方便浏览，个人使用建议需要认证授权，共享给他人可以选择 Public模式，比如自建私有云共享文件影视资源。&lt;/p&gt;
+&lt;p&gt;&lt;figure style="flex: 80.55207026348808" &gt;&lt;img width="1284" height="797" src="https://cdn.jsdelivr.net/gh/Arley517693777/Arley517693777.github.io@master/archives/assets/fa36a24f8ad828b72c379541cbb916e9.png" /&gt;&lt;/figure&gt;&lt;/p&gt;
+&lt;p&gt;这里IP随意选择，其他未说明为默认。&lt;/p&gt;
+&lt;p&gt;&lt;figure style="flex: 126.92828146143437" &gt;&lt;img width="1876" height="739" src="https://cdn.jsdelivr.net/gh/Arley517693777/Arley517693777.github.io@master/archives/assets/025494ee106659b4dcd9c6b88bb59ede.png" /&gt;&lt;/figure&gt;&lt;/p&gt;
+&lt;p&gt;ZeroTier支持全平台，安装相对应的平台来加入您建立的局域网络。
+  其它选项默认。&lt;/p&gt;
+&lt;h3&gt;安卓端（&lt;a href="https://apkpure.com/cn/zerotier-one/com.zerotier.one"&gt;https://apkpure.com/cn/zerotier-one/com.zerotier.one&lt;/a&gt;）&lt;/h3&gt;
+&lt;p&gt;&lt;figure style="flex: 24.072216649949848" &gt;&lt;img width="1440" height="2991" src="https://cdn.jsdelivr.net/gh/Arley517693777/Arley517693777.github.io@master/archives/assets/802000a248e7860f6c69a7632e096165.jpg" /&gt;&lt;/figure&gt;
+&lt;figure style="flex: 24.04809619238477" &gt;&lt;img width="1440" height="2994" src="https://cdn.jsdelivr.net/gh/Arley517693777/Arley517693777.github.io@master/archives/assets/65ff5c99e861de828e789549119263b2.jpg" /&gt;&lt;/figure&gt;
+&lt;figure style="flex: 24.04809619238477" &gt;&lt;img width="1440" height="2994" src="https://cdn.jsdelivr.net/gh/Arley517693777/Arley517693777.github.io@master/archives/assets/65ff5c99e861de828e789549119263b2.jpg" /&gt;&lt;/figure&gt;&lt;/p&gt;
+&lt;p&gt;添加完成后启用，然后去网页勾选授权添加的设备&lt;/p&gt;
+&lt;hr&gt;
+&lt;h4&gt;&lt;a href="https://www.youtube.com/watch?v=4dqDOkI8VE4&amp;amp;t=228s" title="ZeroTier内网穿透Youtube教程"&gt;完整视频版请点ZeroTier内网穿透Youtube教程&lt;/a&gt;&lt;/h4&gt;
+&lt;h4&gt;&lt;a href="https://arley.lanzoui.com/b01ceesrc" title="ZeroTier内网穿透Youtube教程"&gt;资源链接 密码:4ewr&lt;/a&gt;&lt;/h4&gt;
+</description><author>leon517693777@gmail.com (Arley)</author><guid isPermaLink="true">/archives/ZeroTier/</guid><pubDate>Mon, 31 May 2021 12:10:00 +0806</pubDate></item></channel></rss>
