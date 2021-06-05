@@ -41,6 +41,12 @@ external_links = [
         "brief": "滑稽"
     },
     {
+        "name": "屏保自用",
+        "url": "https://arley.cn/satscreen/",
+        "brief": "科技感屏保，F11开启炫酷视界~"
+    },
+	
+    {
         "name": "变色弹珠跳台阶GAME",
         "url": "https://arley.cn/Color-changing-marbles/",
         "brief": "来挑战一下吧~"
