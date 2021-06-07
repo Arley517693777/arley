@@ -121,7 +121,7 @@ Ghelper 就行了。使用时，是进入第二个图标，选一个线路。然
 ------
 
 
-[notice]小道消息：Ghelper软件作者正在开发桌面端APP，全网下架插件下载，已安装不受影响。[加入TG交流群](https://t.me/googleghelper)第一时间发布最新测试版，请期待！[/notice]
+[notice]Ghelper桌面端APP正在内测中，[加入TG交流群](https://t.me/googleghelper)第一时间发布最新消息，请期待！墙高了，起风了......[/notice]
 #### [有问题请联系我！](https://arley.cn/about/)
 #### [加入TG交流群](https://t.me/googleghelper)
 #### [资源链接：密码:782a](https://arley.lanzous.com/b01bgw06h)
