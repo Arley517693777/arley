@@ -41,6 +41,11 @@ external_links = [
         "brief": "滑稽"
     },
     {
+        "name": "3D画图",
+        "url": "https://arley.cn/pencil_draw/",
+        "brief": "画图写字板"
+    },
+    {
         "name": "屏保自用",
         "url": "https://arley.cn/satscreen/",
         "brief": "科技感屏保，F11开启炫酷视界~"
