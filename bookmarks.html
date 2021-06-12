@@ -762,7 +762,7 @@ input::-webkit-input-placeholder {
             <section class="sousuo">
             <div class="search">
                 <div class="search-box">
-                    <button class="search-engine-name" id="search-engine-name">小众搜索</button>
+                    <button class="search-engine-name" id="search-engine-name">必应</button>
                     <input type="text" id="txt" class="search-input" placeholder="选择引擎，输入关键字，回车/Enter搜索"/>
                     <button class="search-btn" id="search-btn">搜索</button>
                 </div>
@@ -1687,7 +1687,7 @@ function browserRedirect() {
     $(this).toggleClass('animated2');
   });
  
-var thisSearch = 'http://www.caup.cn/search?q=';
+var thisSearch = 'https://cn.bing.com/search?q=';
 
 $('#txt').keydown(function(ev){
     if(ev.keyCode==13){
@@ -1698,9 +1698,6 @@ $('#txt').keydown(function(ev){
 $(function(){
   var search = {
     data: [{
-      name: '小众搜索',
-      url: 'https://www.caup.cn/search?q='
-    }, {
       name: '百度',
       url: 'https://www.baidu.com/s?wd='
     }, {
