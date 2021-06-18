@@ -25,7 +25,7 @@ site_build_date = "2019-10-18T16:51+08:00"
 author = "Arley"
 email = "leon517693777@gmail.com"
 author_homepage = "https://arley.cn"
-description = "<p id="hitokoto">Loading...</p>"
+description = "Living without an aim is like sailing without a compass。<br>生活没有目标，犹如航海没有罗盘。"
 key_words = ['Maverick', 'Arley', 'Galileo', 'arleyblog']
 language = 'zh-CN'
 background_img = "${static_prefix}bg.jpg"
@@ -139,5 +139,4 @@ var _hmt = _hmt || [];
 body_addon = r'''
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/Arley517693777/gotop/js/szgotop.js"></script>
 <div class="back-to-top cd-top faa-float animated cd-is-visible" style="top: -999px;"></div>
-<script src="https://v1.hitokoto.cn/?encode=js&select=%23hitokoto" defer></script>
 '''
