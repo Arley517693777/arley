@@ -36,11 +36,6 @@ external_links = [
         "brief": "我的书签导航"
     },
     {
-        "name": "趣味网页",
-        "url": "https://arley.cn/Dog/",
-        "brief": "滑稽"
-    },
-    {
         "name": "3D画图",
         "url": "https://arley.cn/pencil_draw/",
         "brief": "画图写字板"
@@ -50,7 +45,6 @@ external_links = [
         "url": "https://arley.cn/satscreen/",
         "brief": "科技感屏保，F11开启炫酷视界~"
     },
-	
     {
         "name": "变色弹珠跳台阶GAME",
         "url": "https://arley.cn/Color-changing-marbles/",
