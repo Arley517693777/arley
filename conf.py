@@ -36,6 +36,11 @@ external_links = [
         "brief": "我的书签导航"
     },
     {
+        "name": "Arley's Drive",
+        "url": "https://arleyun.ml/",
+        "brief": "Teambition云盘"
+    },
+    {
         "name": "3D画图",
         "url": "https://arley.cn/pencil_draw/",
         "brief": "画图写字板"
