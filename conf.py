@@ -41,9 +41,9 @@ external_links = [
         "brief": "Teambition云盘"
     },
     {
-        "name": "3D画图",
-        "url": "https://arley.cn/pencil_draw/",
-        "brief": "画图写字板"
+        "name": "Sogi's Club",
+        "url": "https://sogi.ml/",
+        "brief": "Sogi's Club | 一个白嫖党论坛"
     },
     {
         "name": "屏保自用",
