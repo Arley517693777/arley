@@ -36,16 +36,6 @@ external_links = [
         "brief": "我的书签导航"
     },
     {
-        "name": "Arley's Drive",
-        "url": "https://arleyun.ml/",
-        "brief": "Teambition云盘"
-    },
-    {
-        "name": "Sogi's Club",
-        "url": "https://sogi.ml/",
-        "brief": "Sogi's Club | 一个白嫖党论坛"
-    },
-    {
         "name": "屏保自用",
         "url": "https://arley.cn/satscreen/",
         "brief": "科技感屏保，F11开启炫酷视界~"
