@@ -24,7 +24,7 @@ Arley,技术宅大叔
 
 ###  ☎ **联系我呀**
 
-Telegram:https://t.me/Arley_cn<br>邮箱 ：arley@arley.cn
+邮箱 ：arley@arley.cn
 
 ### ❈ **关于版权**
 
