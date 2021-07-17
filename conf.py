@@ -31,9 +31,14 @@ language = 'zh-CN'
 background_img = "${static_prefix}bg.jpg"
 external_links = [
     {
-        "name": "Arley's 书签2.0",
+        "name": "Arley's 书签导航",
         "url": "https://arley.cn/navigation/",
         "brief": "我的书签导航"
+    },
+    {
+        "name": "Arley's 云盘",
+        "url": "https://yun.arley.fun/",
+        "brief": "挂载阿里云盘，内藏实用工具~"
     },
     {
         "name": "屏保自用",
