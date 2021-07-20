@@ -36,11 +36,6 @@ external_links = [
         "brief": "我的书签导航"
     },
     {
-        "name": "Arley's 云盘",
-        "url": "https://yun.arley.fun/",
-        "brief": "挂载阿里云盘，内藏实用工具~"
-    },
-    {
         "name": "屏保自用",
         "url": "https://arley.cn/satscreen/",
         "brief": "科技感屏保，F11开启炫酷视界~"
