@@ -88,7 +88,7 @@ valine = {
 head_addon = r'''
 <meta http-equiv="x-dns-prefetch-control" content="on">
 <link rel="dns-prefetch" href="//cdn.jsdelivr.net" />
-<link rel="shortcut icon" href="${static_prefix}Arley.png">
+<link rel="shortcut icon" href="${static_prefix}arley.png">
 <script type='text/javascript' src="https://cdn.jsdelivr.net/gh/Arley517693777/Arley517693777.github.io@master/assets/jquery-3.4.1.min.js"></script>
 <!-- szgotop -->
 <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/Arley517693777/gotop/css/szgotop.css" />
