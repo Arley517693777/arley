@@ -23,18 +23,18 @@
         }
     </script>
     
-<title>读书 - Arley's Blog</title>
+<title>关于使用Infinity Free服务器开启伪静态的教程 - Arley's Blog</title>
 <meta name="author" content="Arley" />
-<meta name="description" content="想读清单" />
-<meta property="og:title" content="读书 - Arley's Blog" />
-<meta property="og:description" content="想读清单" />
+<meta name="description" content="使用Infinity Free服务器开启伪静态" />
+<meta property="og:title" content="关于使用Infinity Free服务器开启伪静态的教程 - Arley's Blog" />
+<meta property="og:description" content="使用Infinity Free服务器开启伪静态" />
 <meta property="og:site_name" content="Arley's Blog" />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="/read/" />
+<meta property="og:url" content="/archives/infinity_free/" />
 <meta property="og:image" content="" />
-<meta property="article:published_time" content="2020-02-12T11:26:00-00.00" />
-<meta name="twitter:title" content="读书 - Arley's Blog" />
-<meta name="twitter:description" content="想读清单" />
+<meta property="article:published_time" content="2021-07-14T20:47:00-00.00" />
+<meta name="twitter:title" content="关于使用Infinity Free服务器开启伪静态的教程 - Arley's Blog" />
+<meta name="twitter:description" content="使用Infinity Free服务器开启伪静态" />
 <meta name="twitter:card" content="summary" />
 <meta name="twitter:image" content="" />
 
@@ -92,38 +92,91 @@ $( '[data-fancybox]' ).fancybox({
 <main>    
     <section class="ga-section ga-content">
         <article class="yue">
-            <h1 class="ga-post_title">读书</h1>
+            <h1 class="ga-post_title">关于使用Infinity Free服务器开启伪静态的教程</h1>
             <span class="ga-post_meta ga-mono">
                 <span>Arley</span>
                 <time>
-                    2020-02-12
+                    2021-07-14
                 </time>
+                
+                in <a no-style class="category" href="/category/技术教程/">
+                    技术教程
+                </a>
                 
                 
                 <span class="leancloud_visitors" 
-                    id="/read/" 
-                    data-flag-title="读书"> · <i class="leancloud-visitors-count"></i> Views</span>
+                    id="/archives/infinity_free/" 
+                    data-flag-title="关于使用Infinity Free服务器开启伪静态的教程"> · <i class="leancloud-visitors-count"></i> Views</span>
                 
             </span>
             <div class="ga-content_body">
-                <h2>想读清单</h2>
-<div class="links">
-<a style="display:block" target="_blank" href="https://book.douban.com/subject/26773004/" class="board-item">                 <div class="board-thumb"><img src="https://s1.ax1x.com/2020/05/26/tPKE7Q.jpg"></div>                 <div class="board-title">追风筝的人</div></a>
-<a style="display:block" target="_blank" href="https://book.douban.com/subject/30180821/" class="board-item">                 <div class="board-thumb"><img src="https://s1.ax1x.com/2020/05/26/tPKknS.jpg"></div>                 <div class="board-title">那不勒斯的萤火虫</div></a>
-<a style="display:block" target="_blank" href="https://book.douban.com/subject/30254298/" class="board-item">                 <div class="board-thumb"><img src="https://s1.ax1x.com/2020/05/26/tPKP6f.jpg"></div>                 <div class="board-title">云边有个小卖部</div></a>
-<a style="display:block" target="_blank" href="https://book.douban.com/subject/4913064/" class="board-item">                 <div class="board-thumb"><img src="https://s1.ax1x.com/2020/05/26/tPujTH.jpg"></div>                 <div class="board-title">活着</div></a></div><h2>已读清单</h2>
-<div class="links">
-<a style="display:block" target="_blank" href="https://book.douban.com/subject/1056295/" class="board-item">                 <div class="board-thumb"><img src="https://s1.ax1x.com/2020/05/26/tPKSfI.jpg"></div>                 <div class="board-title">人性的弱点</div></a>
-<a style="display:block" target="_blank" href="https://book.douban.com/subject/3196088/" class="board-item">                 <div class="board-thumb"><img src="https://s1.ax1x.com/2020/05/26/tPuztA.jpg"></div>                 <div class="board-title">你的潜能</div></a>
-<a style="display:block" target="_blank" href="https://book.douban.com/subject/1088065/" class="board-item">                 <div class="board-thumb"><img src="https://s1.ax1x.com/2020/05/26/tPuIYR.jpg"></div>                 <div class="board-title">阿Q正传</div></a>
-<a style="display:block" target="_blank" href="https://book.douban.com/subject/1911687/" class="board-item">                 <div class="board-thumb"><img src="https://s1.ax1x.com/2020/05/26/tPub6K.jpg"></div>                 <div class="board-title">厚黑学</div></a></div><h2>在读清单</h2>
-<div class="links">
-<a style="display:block" target="_blank" href="https://book.douban.com/subject/26773004/" class="board-item">                 <div class="board-thumb"><img src="https://s1.ax1x.com/2020/05/26/tPKE7Q.jpg"></div>                 <div class="board-title">追风筝的人</div></a></div>
+                <p><strong>关于使用Infinity Free服务器开启伪静态的教程</strong></p>
+<p>博客系统：<a href="http://typecho.org/">Typecho</a>
+主题：<a href="https://github.com/AlanDecode/Typecho-Theme-VOID/blob/master/README.md">VOID</a></p>
+<hr>
+<p>在htdocs根目录下创建【.htaccess】文件，复制以下代码
+伪静态代码</p>
+
+<pre><code>&lt;IfModule mod_rewrite.c&gt;
+RewriteEngine On
+RewriteBase /
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.*)$ /index.php/$1 [L]
+&lt;/IfModule&gt;
+
+</code></pre>
+<p>Https跳转代码</p>
+
+<pre><code>&lt;IfModule mod_rewrite.c&gt;
+RewriteEngine On
+RewriteBase /
+RewriteCond %{HTTP:X-Forwarded-Proto} =http
+RewriteRule (.*) https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+&lt;/IfModule&gt;
+</code></pre>
+<p>保存后去网站后台开启伪静态，如果开启失败勾选强制开启，如下图
+<figure  size-undefined><img width="-1" height="-1" src="https://arley.fun/usr/uploads/2021/07/2740130554.png#vwid=1005&vhei=518" /><figcaption>开启伪静态.png</figcaption></figure></p>
+<p>正常情况下，.PHP会消失，伪静态开启成功。</p>
+
             </div>
         </article>
-        
+        <div id="ga-tags">
+    
+    <span class="ga-tag">
+        <a class="ga-highlight" href="/tag/伪静态/">#伪静态</a>
+    </span>
+    
+    <span class="ga-tag">
+        <a class="ga-highlight" href="/tag/infinity free/">#infinity free</a>
+    </span>
+    
+    <span class="ga-tag">
+        <a class="ga-highlight" href="/tag/typecho/">#typecho</a>
+    </span>
+    
+    <span class="ga-tag">
+        <a class="ga-highlight" href="/tag/VOID/">#VOID</a>
+    </span>
+    
+</div>
     </section>
     
+<section id="ga-content_pager">
+
+    <div class="next">
+        <a class="ga-highlight" href="/archives/printshare/">关于打印机共享</a>
+        <p class="yue">解决打印机共享问题，打印堵塞</p>
+    </div>
+
+
+    <div class="prev">
+        <a class="ga-highlight" href="/archives/ZeroTier/">ZeroTier内网穿透</a>
+        <p class="yue">免费内网穿透远程控制你的设备.</p>
+    </div>
+
+</section>
+
 
     
         <script>
