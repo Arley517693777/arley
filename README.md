@@ -16,8 +16,3 @@ Arley,技术宅大叔
 ### ❈ **关于版权**
 
 本站除注明原创外，其他内容均来源于网络收集，如有侵权，请告知站长，将第一时间删除侵权内容！
-
-### 👨‍ **友联呀**
-
-[links]
-[题目自拟的盒子](https://tmzncty.cn/)+(https://tmzncty.cn/wp-content/uploads/cropped-1614436137-logo-270x270.png)[Arley's Blog](https://arley.fun/)+(https://cdn.jsdelivr.net/gh/Arley517693777/Arley517693777.github.io@master/arley.jpg)[/links]
