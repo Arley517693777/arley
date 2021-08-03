@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Arley's Blog</title><link>/</link><description>Arley's Blog是一个个人博客，托管于Github，使用Jsdelivr CDN加速服务.</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://cdn.jsdelivr.net/gh/Arley517693777/Arley517693777.github.io@master/favicon.ico</url><title>Arley's Blog</title><link>/</link></image><language>zh-CN</language><lastBuildDate>Tue, 03 Aug 2021 02:06:27 +0806</lastBuildDate><pubDate>Tue, 03 Aug 2021 02:06:27 +0806</pubDate><item><title>如何正确使用——谷歌上网助手（Ghelper）</title><link>/archives/Ghelper/</link><description>&lt;h3&gt;目录&lt;/h3&gt;
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Arley's Blog</title><link>/</link><description>Arley's Blog是一个个人博客，托管于Github，使用Jsdelivr CDN加速服务.</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://cdn.jsdelivr.net/gh/Arley517693777/Arley517693777.github.io@master/favicon.ico</url><title>Arley's Blog</title><link>/</link></image><language>zh-CN</language><lastBuildDate>Tue, 03 Aug 2021 02:09:17 +0806</lastBuildDate><pubDate>Tue, 03 Aug 2021 02:09:17 +0806</pubDate><item><title>如何正确使用——谷歌上网助手（Ghelper）</title><link>/archives/Ghelper/</link><description>&lt;h3&gt;目录&lt;/h3&gt;
 &lt;h3&gt;1.安装谷歌浏览器&lt;/h3&gt;
 &lt;h3&gt;2.安装谷歌上网助手（Ghelper）&lt;/h3&gt;
 &lt;h3&gt;3.注册购买&lt;/h3&gt;
@@ -349,4 +349,11 @@
 &lt;hr&gt;
 &lt;h4&gt;&lt;a href="https://www.youtube.com/watch?v=4dqDOkI8VE4&amp;amp;t=228s" title="ZeroTier内网穿透Youtube教程"&gt;完整视频版请点ZeroTier内网穿透Youtube教程&lt;/a&gt;&lt;/h4&gt;
 &lt;h4&gt;&lt;a href="https://arley.lanzoui.com/b01ceesrc" title="ZeroTier资源软件"&gt;资源链接 密码:4ewr&lt;/a&gt;&lt;/h4&gt;
-</description><author>arley@arley.cn (Arley)</author><guid isPermaLink="true">/archives/ZeroTier/</guid><pubDate>Mon, 31 May 2021 12:10:00 +0806</pubDate></item></channel></rss>
+</description><author>arley@arley.cn (Arley)</author><guid isPermaLink="true">/archives/ZeroTier/</guid><pubDate>Mon, 31 May 2021 12:10:00 +0806</pubDate></item><item><title>关于打印机共享</title><link>/archives/printshare/</link><description>&lt;p&gt;最近办公区调整，重新构建局域网，导致之前共享的打印机出现问题，由于不是网络打印机，每台主题调试浪费时间，所以找到如下好东西，高效简单。&lt;/p&gt;
+&lt;p&gt;附上一个打印机一键清除脚本，也一样好用，出自同一作者！&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://yun.arley.fun/download/60c0aa9abfd10000451a8cc7"&gt;局域网共享一键修复&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://yun.arley.fun/download/60f7da6abfbda500449b76c0"&gt;打印机任务一键清除&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;来源作者：&lt;a href="https://zhuanlan.zhihu.com/p/24178142"&gt;wnsdt&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;figure  size-undefined&gt;&lt;img width="-1" height="-1" src="https://arley.fun/usr/uploads/2021/07/2236499647.png#vwid=420&amp;vhei=521" /&gt;&lt;/figure&gt;&lt;/p&gt;
+&lt;p&gt;&lt;figure  size-undefined&gt;&lt;img width="-1" height="-1" src="https://arley.fun/usr/uploads/2021/07/1416473592.png#vwid=612&amp;vhei=457" /&gt;&lt;/figure&gt;&lt;/p&gt;
+</description><author>arley@arley.cn (Arley)</author><guid isPermaLink="true">/archives/printshare/</guid><pubDate>Sat, 24 Jul 2021 18:27:00 +0806</pubDate></item></channel></rss>
