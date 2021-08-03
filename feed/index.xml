@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Arley's Blog</title><link>/</link><description>Arley's Blog是一个个人博客，托管于Github，使用Jsdelivr CDN加速服务.</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://cdn.jsdelivr.net/gh/Arley517693777/Arley517693777.github.io@master/favicon.ico</url><title>Arley's Blog</title><link>/</link></image><language>zh-CN</language><lastBuildDate>Tue, 03 Aug 2021 02:14:25 +0806</lastBuildDate><pubDate>Tue, 03 Aug 2021 02:14:25 +0806</pubDate><item><title>如何正确使用——谷歌上网助手（Ghelper）</title><link>/archives/Ghelper/</link><description>&lt;h3&gt;目录&lt;/h3&gt;
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Arley's Blog</title><link>/</link><description>Arley's Blog是一个个人博客，托管于Github，使用Jsdelivr CDN加速服务.</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://cdn.jsdelivr.net/gh/Arley517693777/Arley517693777.github.io@master/favicon.ico</url><title>Arley's Blog</title><link>/</link></image><language>zh-CN</language><lastBuildDate>Tue, 03 Aug 2021 02:16:04 +0806</lastBuildDate><pubDate>Tue, 03 Aug 2021 02:16:04 +0806</pubDate><item><title>如何正确使用——谷歌上网助手（Ghelper）</title><link>/archives/Ghelper/</link><description>&lt;h3&gt;目录&lt;/h3&gt;
 &lt;h3&gt;1.安装谷歌浏览器&lt;/h3&gt;
 &lt;h3&gt;2.安装谷歌上网助手（Ghelper）&lt;/h3&gt;
 &lt;h3&gt;3.注册购买&lt;/h3&gt;
@@ -356,4 +356,24 @@
 &lt;p&gt;来源作者：&lt;a href="https://zhuanlan.zhihu.com/p/24178142"&gt;wnsdt&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;figure  size-undefined&gt;&lt;img width="-1" height="-1" src="https://arley.fun/usr/uploads/2021/07/2236499647.png#vwid=420&amp;vhei=521" /&gt;&lt;/figure&gt;&lt;/p&gt;
 &lt;p&gt;&lt;figure  size-undefined&gt;&lt;img width="-1" height="-1" src="https://arley.fun/usr/uploads/2021/07/1416473592.png#vwid=612&amp;vhei=457" /&gt;&lt;/figure&gt;&lt;/p&gt;
-</description><author>arley@arley.cn (Arley)</author><guid isPermaLink="true">/archives/printshare/</guid><pubDate>Sat, 24 Jul 2021 18:27:00 +0806</pubDate></item></channel></rss>
+</description><author>arley@arley.cn (Arley)</author><guid isPermaLink="true">/archives/printshare/</guid><pubDate>Sat, 24 Jul 2021 18:27:00 +0806</pubDate></item><item><title>如何让Windows系统桌面变得更好看？</title><link>/archives/windiy/</link><description>&lt;p&gt;首先，需要一张壁纸，因为桌面大部分都是壁纸部分，所以，选择一张好看的壁纸，桌面美化度80%。&lt;/p&gt;
+&lt;p&gt;推荐壁纸站：&lt;a href="https://wallhaven.cc/"&gt;wallhaven&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;figure  size-undefined&gt;&lt;img width="-1" height="-1" src="https://arley.fun/usr/uploads/2021/07/3024092568.jpg#vwid=702&amp;vhei=394" /&gt;&lt;/figure&gt;&lt;/p&gt;
+&lt;p&gt;接下来，设置桌面图标：&lt;/p&gt;
+&lt;p&gt;在任意磁盘位置新建文件夹【桌面】或任意名称，把桌面图标全部选中拖动至新建的【桌面】文件夹中，&lt;/p&gt;
+&lt;p&gt;&lt;figure  size-undefined&gt;&lt;img width="-1" height="-1" src="https://arley.fun/usr/uploads/2021/07/2417772448.jpg#vwid=702&amp;vhei=493" /&gt;&lt;/figure&gt;&lt;/p&gt;
+&lt;p&gt;然后在任务栏右键—工具栏—新建工具栏&lt;/p&gt;
+&lt;p&gt;&lt;figure  size-undefined&gt;&lt;img width="-1" height="-1" src="https://arley.fun/usr/uploads/2021/07/1687946393.jpg#vwid=702&amp;vhei=307" /&gt;&lt;/figure&gt;&lt;/p&gt;
+&lt;p&gt;取消任务栏锁定后，拖动刚刚添加【桌面】至合适位置，如果有输入法，右键输入法图标，选择还原语言栏&lt;/p&gt;
+&lt;p&gt;然后再继续拖动，&lt;/p&gt;
+&lt;p&gt;&lt;figure  size-undefined&gt;&lt;img width="-1" height="-1" src="https://arley.fun/usr/uploads/2021/07/2500660069.jpg#vwid=702&amp;vhei=281" /&gt;&lt;/figure&gt;&lt;/p&gt;
+&lt;p&gt;右键【桌面】取消勾选 显示文本 和 显示标题 ，查看选择 大图标 即可设置完成，然后调整输入法（直接拖动输入法浮窗至任务栏），锁定任务栏。&lt;/p&gt;
+&lt;p&gt;&lt;figure  size-undefined&gt;&lt;img width="-1" height="-1" src="https://arley.fun/usr/uploads/2021/07/3797086340.png#vwid=702&amp;vhei=149" /&gt;&lt;/figure&gt;&lt;/p&gt;
+&lt;p&gt;图标顺序有点乱？别急，可以拖动他们，&lt;/p&gt;
+&lt;p&gt;&lt;figure  size-undefined&gt;&lt;img width="-1" height="-1" src="https://arley.fun/usr/uploads/2021/07/1489310852.jpg#vwid=613&amp;vhei=160" /&gt;&lt;/figure&gt;&lt;/p&gt;
+&lt;p&gt;最后，删除桌面图标，取消勾选桌面系统图标&lt;/p&gt;
+&lt;p&gt;&lt;figure  size-undefined&gt;&lt;img width="-1" height="-1" src="https://arley.fun/usr/uploads/2021/07/963567637.jpg#vwid=414&amp;vhei=429" /&gt;&lt;/figure&gt;&lt;/p&gt;
+&lt;p&gt;&lt;figure  size-undefined&gt;&lt;img width="-1" height="-1" src="https://arley.fun/usr/uploads/2021/07/655566014.jpg#vwid=702&amp;vhei=394" /&gt;&lt;/figure&gt;&lt;/p&gt;
+&lt;p&gt;其他优化，任务栏透明，win7自带 Aero，调整透明度值最高，建议选择白色调整效果最佳，win10系统推荐软件&lt;a href="https://yun.arley.fun/download/60fac5ea6e5c5c0044e50043"&gt;Private.BlurClear&lt;/a&gt; ，仅27KB。&lt;/p&gt;
+&lt;p&gt;至此桌面美化完毕！赶快去试试吧~&lt;/p&gt;
+</description><author>arley@arley.cn (Arley)</author><guid isPermaLink="true">/archives/windiy/</guid><pubDate>Sat, 24 Jul 2021 18:30:00 +0806</pubDate></item></channel></rss>
