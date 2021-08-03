@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="zh-CN"><id>/</id><title>Arley's Blog</title><updated>2021-07-29T15:36:43.108492+08:06</updated><author><name>Arley</name><email>arley@arley.cn</email></author><link href="/" rel="alternate"/><generator uri="https://lkiesow.github.io/python-feedgen" version="0.9.0">python-feedgen</generator><logo>https://cdn.jsdelivr.net/gh/Arley517693777/Arley517693777.github.io@master/favicon.ico</logo><subtitle>Arley's Blog是一个个人博客，托管于Github，使用Jsdelivr CDN加速服务.</subtitle><entry><id>/archives/Ghelper/</id><title>如何正确使用——谷歌上网助手（Ghelper）</title><updated>2021-07-29T15:36:43.108683+00:00</updated><author><name>Arley</name><email>arley@arley.cn</email><uri>https://arley.cn</uri></author><content>&lt;h3&gt;目录&lt;/h3&gt;
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="zh-CN"><id>/</id><title>Arley's Blog</title><updated>2021-08-03T02:06:20.371103+08:06</updated><author><name>Arley</name><email>arley@arley.cn</email></author><link href="/" rel="alternate"/><generator uri="https://lkiesow.github.io/python-feedgen" version="0.9.0">python-feedgen</generator><logo>https://cdn.jsdelivr.net/gh/Arley517693777/Arley517693777.github.io@master/favicon.ico</logo><subtitle>Arley's Blog是一个个人博客，托管于Github，使用Jsdelivr CDN加速服务.</subtitle><entry><id>/archives/Ghelper/</id><title>如何正确使用——谷歌上网助手（Ghelper）</title><updated>2021-08-03T02:06:20.371445+00:00</updated><author><name>Arley</name><email>arley@arley.cn</email><uri>https://arley.cn</uri></author><content>&lt;h3&gt;目录&lt;/h3&gt;
 &lt;h3&gt;1.安装谷歌浏览器&lt;/h3&gt;
 &lt;h3&gt;2.安装谷歌上网助手（Ghelper）&lt;/h3&gt;
 &lt;h3&gt;3.注册购买&lt;/h3&gt;
@@ -56,7 +56,7 @@
 &lt;div class="notice"&gt;Ghelper桌面端APP正在内测中，&lt;a href="https://t.me/googleghelper"&gt;加入TG交流群&lt;/a&gt;第一时间发布最新消息，请期待！墙高了，起风了......&lt;/div&gt;&lt;h4&gt;&lt;a href="https://arley.cn/about/"&gt;有问题请联系我！&lt;/a&gt;&lt;/h4&gt;
 &lt;h4&gt;&lt;a href="https://t.me/googleghelper"&gt;加入TG交流群&lt;/a&gt;&lt;/h4&gt;
 &lt;h4&gt;&lt;a href="https://arley.lanzous.com/b01bgw06h"&gt;资源链接：密码:782a&lt;/a&gt;&lt;/h4&gt;
-</content><link href="/archives/Ghelper/" rel="alternate"/><published>2019-11-11T22:22:00+08:06</published></entry><entry><id>/archives/ffmpeg/</id><title>ffmpeg常用教程</title><updated>2021-07-29T15:36:43.108659+00:00</updated><author><name>Arley</name><email>arley@arley.cn</email><uri>https://arley.cn</uri></author><content>&lt;h2&gt;一、安装&lt;/h2&gt;
+</content><link href="/archives/Ghelper/" rel="alternate"/><published>2019-11-11T22:22:00+08:06</published></entry><entry><id>/archives/ffmpeg/</id><title>ffmpeg常用教程</title><updated>2021-08-03T02:06:20.371411+00:00</updated><author><name>Arley</name><email>arley@arley.cn</email><uri>https://arley.cn</uri></author><content>&lt;h2&gt;一、安装&lt;/h2&gt;
 &lt;p&gt;&lt;strong&gt;ffmpeg官网：&lt;a href="https://www.ffmpeg.org/download.html"&gt;https://www.ffmpeg.org/download.html&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;该网站中的FFMPEG分为3个版本：Static，Shared，Dev。&lt;/p&gt;
 &lt;p&gt;前两个版本可以直接在命令行中使用，他们的区别在于&lt;/p&gt;
@@ -140,7 +140,7 @@
 &lt;p&gt;&lt;code&gt;ffmpeg -i 相声.mp4 -vf transpose=1 rotate8.mp4&lt;/code&gt;&lt;/p&gt;
 &lt;h2&gt;三、其他命令&lt;/h2&gt;
 &lt;p&gt;官方文档：&lt;a href="https://www.ffmpeg.org/ffmpeg.html" title="ffmpeg官方文档"&gt;https://www.ffmpeg.org/ffmpeg.html&lt;/a&gt;&lt;/p&gt;
-</content><link href="/archives/ffmpeg/" rel="alternate"/><published>2020-02-12T10:10:00+08:06</published></entry><entry><id>/archives/AC-baidu/</id><title>AC-baidu-重定向优化美化代码分享</title><updated>2021-07-29T15:36:43.108634+00:00</updated><author><name>Arley</name><email>arley@arley.cn</email><uri>https://arley.cn</uri></author><content>&lt;h4&gt;以下代码直接复制粘贴到 附加10-自定义样式&lt;/h4&gt;
+</content><link href="/archives/ffmpeg/" rel="alternate"/><published>2020-02-12T10:10:00+08:06</published></entry><entry><id>/archives/AC-baidu/</id><title>AC-baidu-重定向优化美化代码分享</title><updated>2021-08-03T02:06:20.371377+00:00</updated><author><name>Arley</name><email>arley@arley.cn</email><uri>https://arley.cn</uri></author><content>&lt;h4&gt;以下代码直接复制粘贴到 附加10-自定义样式&lt;/h4&gt;
 &lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="cm"&gt;/**计数器的颜色样式*/&lt;/span&gt;
 &lt;span class="n"&gt;div&lt;/span&gt; &lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="n"&gt;AC&lt;/span&gt;&lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="n"&gt;CounterT&lt;/span&gt;&lt;span class="p"&gt;{&lt;/span&gt;
     &lt;span class="nl"&gt;background&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="err"&gt;#&lt;/span&gt;&lt;span class="n"&gt;FD9999&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
@@ -271,7 +271,7 @@
 &lt;/pre&gt;&lt;/div&gt;
 &lt;h3&gt;代码预览样图&lt;/h3&gt;
 &lt;p&gt;&lt;figure style="flex: 24.03204272363151" &gt;&lt;img width="1440" height="2996" src="https://cdn.jsdelivr.net/gh/Arley517693777/Arley517693777.github.io@master/archives/assets/89e1286889aa7b3203a5ed70d99e3a6b.jpg" /&gt;&lt;/figure&gt;&lt;/p&gt;
-</content><link href="/archives/AC-baidu/" rel="alternate"/><published>2021-01-15T09:10:00+08:06</published></entry><entry><id>/archives/vscode/</id><title>vscode美化</title><updated>2021-07-29T15:36:43.108605+00:00</updated><author><name>Arley</name><email>arley@arley.cn</email><uri>https://arley.cn</uri></author><content>&lt;h3&gt;1.换背景&lt;/h3&gt;
+</content><link href="/archives/AC-baidu/" rel="alternate"/><published>2021-01-15T09:10:00+08:06</published></entry><entry><id>/archives/vscode/</id><title>vscode美化</title><updated>2021-08-03T02:06:20.371339+00:00</updated><author><name>Arley</name><email>arley@arley.cn</email><uri>https://arley.cn</uri></author><content>&lt;h3&gt;1.换背景&lt;/h3&gt;
 &lt;p&gt;在扩展程序中搜索background-cover插件进行安装&lt;/p&gt;
 &lt;p&gt;ctrl + shift +p 输入命令&lt;/p&gt;
 &lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="n"&gt;backgroundCover&lt;/span&gt; &lt;span class="o"&gt;-&lt;/span&gt; &lt;span class="n"&gt;start&lt;/span&gt;
@@ -328,7 +328,7 @@
 &lt;p&gt;10、Markdown Preview Enhanced  &amp;ensp;Markdown预览插件&lt;/p&gt;
 &lt;h3&gt;预览样图&lt;/h3&gt;
 &lt;p&gt;&lt;figure style="flex: 88.88888888888889" &gt;&lt;img width="1920" height="1080" src="https://cdn.jsdelivr.net/gh/Arley517693777/Arley517693777.github.io@master/archives/assets/0fceaa48f5d9fed35315a11d51621f74.png" /&gt;&lt;/figure&gt;&lt;/p&gt;
-</content><link href="/archives/vscode/" rel="alternate"/><published>2021-05-31T10:10:00+08:06</published></entry><entry><id>/archives/ZeroTier/</id><title>ZeroTier内网穿透</title><updated>2021-07-29T15:36:43.108550+00:00</updated><author><name>Arley</name><email>arley@arley.cn</email><uri>https://arley.cn</uri></author><content>&lt;p&gt;&lt;figure style="flex: 86.76680972818312" &gt;&lt;img width="1213" height="699" src="https://cdn.jsdelivr.net/gh/Arley517693777/Arley517693777.github.io@master/archives/assets/5b9cf81149377fa26218c7ef4691130c.png" /&gt;&lt;/figure&gt;
+</content><link href="/archives/vscode/" rel="alternate"/><published>2021-05-31T10:10:00+08:06</published></entry><entry><id>/archives/ZeroTier/</id><title>ZeroTier内网穿透</title><updated>2021-08-03T02:06:20.371285+00:00</updated><author><name>Arley</name><email>arley@arley.cn</email><uri>https://arley.cn</uri></author><content>&lt;p&gt;&lt;figure style="flex: 86.76680972818312" &gt;&lt;img width="1213" height="699" src="https://cdn.jsdelivr.net/gh/Arley517693777/Arley517693777.github.io@master/archives/assets/5b9cf81149377fa26218c7ef4691130c.png" /&gt;&lt;/figure&gt;
 &lt;figure style="flex: 91.06280193236715" &gt;&lt;img width="1131" height="621" src="https://cdn.jsdelivr.net/gh/Arley517693777/Arley517693777.github.io@master/archives/assets/232a169a202b58d1652ca2c4e3010d48.png" /&gt;&lt;/figure&gt;&lt;/p&gt;
 &lt;h3&gt;如何使用ZeroTier（&lt;a href="https://zerotier.com/"&gt;https://zerotier.com/&lt;/a&gt;）&lt;/h3&gt;
 &lt;p&gt;支持 Github、Google、Microsoft 登录&lt;/p&gt;
@@ -349,4 +349,24 @@
 &lt;hr&gt;
 &lt;h4&gt;&lt;a href="https://www.youtube.com/watch?v=4dqDOkI8VE4&amp;amp;t=228s" title="ZeroTier内网穿透Youtube教程"&gt;完整视频版请点ZeroTier内网穿透Youtube教程&lt;/a&gt;&lt;/h4&gt;
 &lt;h4&gt;&lt;a href="https://arley.lanzoui.com/b01ceesrc" title="ZeroTier资源软件"&gt;资源链接 密码:4ewr&lt;/a&gt;&lt;/h4&gt;
-</content><link href="/archives/ZeroTier/" rel="alternate"/><published>2021-05-31T12:10:00+08:06</published></entry></feed>
+</content><link href="/archives/ZeroTier/" rel="alternate"/><published>2021-05-31T12:10:00+08:06</published></entry><entry><id>/archives/windiy/</id><title>如何让Windows系统桌面变得更好看？</title><updated>2021-08-03T02:06:20.371158+00:00</updated><author><name>Arley</name><email>arley@arley.cn</email><uri>https://arley.cn</uri></author><content>&lt;p&gt;首先，需要一张壁纸，因为桌面大部分都是壁纸部分，所以，选择一张好看的壁纸，桌面美化度80%。&lt;/p&gt;
+&lt;p&gt;推荐壁纸站：&lt;a href="https://wallhaven.cc/"&gt;wallhaven&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;figure  size-undefined&gt;&lt;img width="-1" height="-1" src="https://arley.fun/usr/uploads/2021/07/3024092568.jpg#vwid=702&amp;vhei=394" /&gt;&lt;/figure&gt;&lt;/p&gt;
+&lt;p&gt;接下来，设置桌面图标：&lt;/p&gt;
+&lt;p&gt;在任意磁盘位置新建文件夹【桌面】或任意名称，把桌面图标全部选中拖动至新建的【桌面】文件夹中，&lt;/p&gt;
+&lt;p&gt;&lt;figure  size-undefined&gt;&lt;img width="-1" height="-1" src="https://arley.fun/usr/uploads/2021/07/2417772448.jpg#vwid=702&amp;vhei=493" /&gt;&lt;/figure&gt;&lt;/p&gt;
+&lt;p&gt;然后在任务栏右键—工具栏—新建工具栏&lt;/p&gt;
+&lt;p&gt;&lt;figure  size-undefined&gt;&lt;img width="-1" height="-1" src="https://arley.fun/usr/uploads/2021/07/1687946393.jpg#vwid=702&amp;vhei=307" /&gt;&lt;/figure&gt;&lt;/p&gt;
+&lt;p&gt;取消任务栏锁定后，拖动刚刚添加【桌面】至合适位置，如果有输入法，右键输入法图标，选择还原语言栏&lt;/p&gt;
+&lt;p&gt;然后再继续拖动，&lt;/p&gt;
+&lt;p&gt;&lt;figure  size-undefined&gt;&lt;img width="-1" height="-1" src="https://arley.fun/usr/uploads/2021/07/2500660069.jpg#vwid=702&amp;vhei=281" /&gt;&lt;/figure&gt;&lt;/p&gt;
+&lt;p&gt;右键【桌面】取消勾选 显示文本 和 显示标题 ，查看选择 大图标 即可设置完成，然后调整输入法（直接拖动输入法浮窗至任务栏），锁定任务栏。&lt;/p&gt;
+&lt;p&gt;&lt;figure  size-undefined&gt;&lt;img width="-1" height="-1" src="https://arley.fun/usr/uploads/2021/07/3797086340.png#vwid=702&amp;vhei=149" /&gt;&lt;/figure&gt;&lt;/p&gt;
+&lt;p&gt;图标顺序有点乱？别急，可以拖动他们，&lt;/p&gt;
+&lt;p&gt;&lt;figure  size-undefined&gt;&lt;img width="-1" height="-1" src="https://arley.fun/usr/uploads/2021/07/1489310852.jpg#vwid=613&amp;vhei=160" /&gt;&lt;/figure&gt;&lt;/p&gt;
+&lt;p&gt;最后，删除桌面图标，取消勾选桌面系统图标&lt;/p&gt;
+&lt;p&gt;&lt;figure  size-undefined&gt;&lt;img width="-1" height="-1" src="https://arley.fun/usr/uploads/2021/07/963567637.jpg#vwid=414&amp;vhei=429" /&gt;&lt;/figure&gt;&lt;/p&gt;
+&lt;p&gt;&lt;figure  size-undefined&gt;&lt;img width="-1" height="-1" src="https://arley.fun/usr/uploads/2021/07/655566014.jpg#vwid=702&amp;vhei=394" /&gt;&lt;/figure&gt;&lt;/p&gt;
+&lt;p&gt;其他优化，任务栏透明，win7自带 Aero，调整透明度值最高，建议选择白色调整效果最佳，win10系统推荐软件&lt;a href="https://yun.arley.fun/download/60fac5ea6e5c5c0044e50043"&gt;Private.BlurClear&lt;/a&gt; ，仅27KB。&lt;/p&gt;
+&lt;p&gt;至此桌面美化完毕！赶快去试试吧~&lt;/p&gt;
+</content><link href="/archives/windiy/" rel="alternate"/><published>2021-07-24T18:30:00+08:06</published></entry></feed>
