@@ -36,6 +36,11 @@ external_links = [
         "brief": "我的书签导航"
     },
     {
+        "name": "网易云音乐直连获取",
+        "url": "https://arley.cn/neteasecloudmusicurl/",
+        "brief": "可下载哦~"
+    },
+    {
         "name": "屏保自用",
         "url": "https://arley.cn/satscreen/",
         "brief": "科技感屏保，F11开启炫酷视界~"
