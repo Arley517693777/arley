@@ -14,7 +14,7 @@ template = {
     "path": "../Galileo"
 }
 enable_jsdelivr = {
-    "enabled": True,
+    "enabled": false,
     "repo": "Arley517693777/Arley517693777.github.io@master"
 }
 
@@ -91,14 +91,13 @@ valine = {
 
 head_addon = r'''
 <meta http-equiv="x-dns-prefetch-control" content="on">
-<link rel="dns-prefetch" href="//cdn.jsdelivr.net" />
 <link rel="shortcut icon" href="${static_prefix}arley.png">
-<script type='text/javascript' src="https://cdn.jsdelivr.net/gh/Arley517693777/Arley517693777.github.io@master/assets/jquery-3.4.1.min.js"></script>
+<script type='text/javascript' src="assets/jquery-3.4.1.min.js"></script>
 <!-- szgotop -->
-<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/Arley517693777/gotop/css/szgotop.css" />
+<link rel="stylesheet" type="text/css" href="gotop/css/szgotop.css" />
 <!-- FancyBox -->
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Arley517693777/Arley517693777.github.io@master/assets/jquery.fancybox.min.css" />
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/Arley517693777/Arley517693777.github.io@master/assets/jquery.fancybox.min.js"></script>
+<link rel="stylesheet" href="assets/jquery.fancybox.min.css" />
+<script type="text/javascript" src="assets/jquery.fancybox.min.js"></script>
 <script>
 $(function() {
    $(".yue figure img").each(function(i) {
@@ -131,6 +130,6 @@ var _hmt = _hmt || [];
 '''
 
 body_addon = r'''
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/Arley517693777/gotop/js/szgotop.js"></script>
+<script type="text/javascript" src="gotop/js/szgotop.js"></script>
 <div class="back-to-top cd-top faa-float animated cd-is-visible" style="top: -999px;"></div>
 '''
